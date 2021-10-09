@@ -10,7 +10,7 @@ namespace UnityCS
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("안녕하세요 하하하하하.");
+            Console.WriteLine("안녕하세요. 하하하하하.");
         }
     }
 }
