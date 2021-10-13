@@ -14,7 +14,7 @@ class Player
     protected int Hp; // 자식에게만 공개
     private int Def; // 내부에만 공개
 
-    void Fight()
+    public void Fight()
     {
         Console.WriteLine("싸운다.");
     }
@@ -32,7 +32,7 @@ namespace _07ClassAccess
             // 만들어진 객체의 내용을 사용하기 위해서는
             // 객체의 이름. 을 사용한다.
             NewPlayer1.Atk = 1000;
-            NewPlayer2.Atk = 500;
+            NewPlayer2.Fight();
         }
     }
 }
