@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11Memory01(Value)", "11Memo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12Memory02(Reference)", "12Memory02(Reference)\12Memory02(Reference).csproj", "{5E3E1509-7AD8-4DCF-90A1-E061D34498E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13StaticVar", "13StaticVar\13StaticVar.csproj", "{B17B7D8F-8A40-4EBC-828F-606C0B4C611F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{5E3E1509-7AD8-4DCF-90A1-E061D34498E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E3E1509-7AD8-4DCF-90A1-E061D34498E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E3E1509-7AD8-4DCF-90A1-E061D34498E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B17B7D8F-8A40-4EBC-828F-606C0B4C611F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17B7D8F-8A40-4EBC-828F-606C0B4C611F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17B7D8F-8A40-4EBC-828F-606C0B4C611F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17B7D8F-8A40-4EBC-828F-606C0B4C611F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
