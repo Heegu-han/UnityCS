@@ -4,6 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// 정적 클래스는 정적 맴버변수와 정적 맴버함수만을 가질수 있는 클래스다.
+
+static class StClass
+{
+    //일반 맴버변수는 선언만해도 오류가 나게 된다.
+    //int TEST = 100;
+    
+}
 class Player
 {
     // 함수의 위치는 문법적으로는 어디에 있건 상관없다.
