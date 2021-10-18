@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06LocalVar", "06LocalVar\06
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07ClassAccess", "07ClassAccess\07ClassAccess.csproj", "{B7F8D0AB-7367-4CE6-8B8B-E1A74B71B7F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08FuncEx", "08FuncEx\08FuncEx.csproj", "{48C8E89D-7006-45BB-A7C9-83DEC84A04C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{B7F8D0AB-7367-4CE6-8B8B-E1A74B71B7F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7F8D0AB-7367-4CE6-8B8B-E1A74B71B7F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7F8D0AB-7367-4CE6-8B8B-E1A74B71B7F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C8E89D-7006-45BB-A7C9-83DEC84A04C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C8E89D-7006-45BB-A7C9-83DEC84A04C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C8E89D-7006-45BB-A7C9-83DEC84A04C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C8E89D-7006-45BB-A7C9-83DEC84A04C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
