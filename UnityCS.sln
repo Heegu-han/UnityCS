@@ -27,7 +27,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09perator", "09perator\09pe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10Memory00(Func)", "10Memory00_Func\10Memory00(Func).csproj", "{C8AF9B88-D85E-4E0A-9F64-2A8CF25AFD87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11Memory00(Value)", "11Memory00(Value)\11Memory00(Value).csproj", "{D61A8FDA-A2F7-4F97-B922-BD2F83E3B905}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11Memory01(Value)", "11Memory00(Value)\11Memory01(Value).csproj", "{D61A8FDA-A2F7-4F97-B922-BD2F83E3B905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12Memory02(Reference)", "12Memory02(Reference)\12Memory02(Reference).csproj", "{5E3E1509-7AD8-4DCF-90A1-E061D34498E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{D61A8FDA-A2F7-4F97-B922-BD2F83E3B905}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D61A8FDA-A2F7-4F97-B922-BD2F83E3B905}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D61A8FDA-A2F7-4F97-B922-BD2F83E3B905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E3E1509-7AD8-4DCF-90A1-E061D34498E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3E1509-7AD8-4DCF-90A1-E061D34498E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3E1509-7AD8-4DCF-90A1-E061D34498E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3E1509-7AD8-4DCF-90A1-E061D34498E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
