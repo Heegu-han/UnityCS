@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12Memory02(Reference)", "12
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13StaticVar", "13StaticVar\13StaticVar.csproj", "{B17B7D8F-8A40-4EBC-828F-606C0B4C611F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14StaticFunc", "14StaticFunc\14StaticFunc.csproj", "{2B99B7B7-C8F6-4955-8E29-92B5D7C254B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{B17B7D8F-8A40-4EBC-828F-606C0B4C611F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B17B7D8F-8A40-4EBC-828F-606C0B4C611F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B17B7D8F-8A40-4EBC-828F-606C0B4C611F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B99B7B7-C8F6-4955-8E29-92B5D7C254B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B99B7B7-C8F6-4955-8E29-92B5D7C254B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B99B7B7-C8F6-4955-8E29-92B5D7C254B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B99B7B7-C8F6-4955-8E29-92B5D7C254B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
