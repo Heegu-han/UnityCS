@@ -25,7 +25,9 @@ namespace _14StaticFunc
 {
     class Program
     {
-        // 이녀석도 클래스에 속한 정적 함수
+        // 이녀석도 클래스에 속한 정적 함수이다.
+        // 어떤 클래스에 존재하는 Main의 이름을 가진
+        // 정적맴버함수에서부터 C#은 시작한다.
         static void Main(string[] args)
         {
             Console.WriteLine("static 함수 배우는중");
