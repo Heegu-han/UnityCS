@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21Struct", "21Struct\21Stru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform1", "winform1\winform1.csproj", "{17A2503F-6425-400C-89AB-3A05D33A176D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform2", "winform2\winform2.csproj", "{9DFA6C4D-9690-4BE8-9AAC-36217CA787AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{17A2503F-6425-400C-89AB-3A05D33A176D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17A2503F-6425-400C-89AB-3A05D33A176D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17A2503F-6425-400C-89AB-3A05D33A176D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DFA6C4D-9690-4BE8-9AAC-36217CA787AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFA6C4D-9690-4BE8-9AAC-36217CA787AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFA6C4D-9690-4BE8-9AAC-36217CA787AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFA6C4D-9690-4BE8-9AAC-36217CA787AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
