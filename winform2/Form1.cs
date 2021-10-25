@@ -34,8 +34,9 @@ namespace winform2
             int iNumA = int.Parse(tboxNum1.Text);
             int iNumB = int.Parse(tboxNum2.Text);
 
-            int iResult = iNumA * iNumB;
-            tboxResult.Text = iResult.ToString();
+            //int iResult = iNumA * iNumB;
+            //tboxResult.Text = iResult.ToString();
+            tboxResult.Text = fMulti(iNumA, iNumB).ToString();
         }
 
         private void btnDiv_Click(object sender, EventArgs e)
@@ -43,8 +44,9 @@ namespace winform2
             int iNumA = int.Parse(tboxNum1.Text);
             int iNumB = int.Parse(tboxNum2.Text);
 
-            int iResult = iNumA / iNumB;
-            tboxResult.Text = iResult.ToString();
+            //int iResult = iNumA / iNumB;
+            //tboxResult.Text = iResult.ToString();
+            tboxResult.Text = fDiv(iNumA, iNumB).ToString();
         }
 
         private void btnMinus_Click(object sender, EventArgs e)
@@ -52,8 +54,9 @@ namespace winform2
             int iNumA = int.Parse(tboxNum1.Text);
             int iNumB = int.Parse(tboxNum2.Text);
 
-            int iResult = iNumA - iNumB;
-            tboxResult.Text = iResult.ToString();
+            //int iResult = iNumA - iNumB;
+            //tboxResult.Text = iResult.ToString();
+            tboxResult.Text = fMinus(iNumA, iNumB).ToString();
         }
         private int fPlus(int iA, int iB)
         {
@@ -63,5 +66,30 @@ namespace winform2
 
             return iResut;
         }
+        private int fMinus(int iA, int iB)
+        {
+            int iResut = 0;
+            iResut = iA - iB;
+
+
+            return iResut;
+        }
+        private int fMulti(int iA, int iB)
+        {
+            int iResut = 0;
+            iResut = iA * iB;
+
+
+            return iResut;
+        }
+        private int fDiv(int iA, int iB)
+        {
+            int iResut = 0;
+            iResut = iA / iB;
+
+
+            return iResut;
+        }
+
     }
 }
