@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20Switch", "20Switch\20Swit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21Struct", "21Struct\21Struct.csproj", "{647106DA-BCDD-4A92-BD0B-CF766712ADC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform1", "winform1\winform1.csproj", "{17A2503F-6425-400C-89AB-3A05D33A176D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{647106DA-BCDD-4A92-BD0B-CF766712ADC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{647106DA-BCDD-4A92-BD0B-CF766712ADC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{647106DA-BCDD-4A92-BD0B-CF766712ADC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17A2503F-6425-400C-89AB-3A05D33A176D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A2503F-6425-400C-89AB-3A05D33A176D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17A2503F-6425-400C-89AB-3A05D33A176D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17A2503F-6425-400C-89AB-3A05D33A176D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

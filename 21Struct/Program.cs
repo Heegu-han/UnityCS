@@ -26,6 +26,10 @@ namespace _21Struct
         {
             _Data.a = 1000;
         }
+        static void TestNumber(int _Number)
+        {
+            _Number = 1000;
+        }
         static void Main(string[] args)
         {
             // int Number = 100;
