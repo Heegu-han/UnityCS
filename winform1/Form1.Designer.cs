@@ -49,6 +49,8 @@ namespace winform1
             this.lb7 = new System.Windows.Forms.Label();
             this.lb8 = new System.Windows.Forms.Label();
             this.lb9 = new System.Windows.Forms.Label();
+            this.lb11 = new System.Windows.Forms.Label();
+            this.lb10 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -68,6 +70,7 @@ namespace winform1
             this.button1.TabIndex = 1;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -232,11 +235,31 @@ namespace winform1
             this.lb9.TabIndex = 19;
             this.lb9.Text = "-";
             // 
+            // lb11
+            // 
+            this.lb11.AutoSize = true;
+            this.lb11.Location = new System.Drawing.Point(129, 261);
+            this.lb11.Name = "lb11";
+            this.lb11.Size = new System.Drawing.Size(11, 12);
+            this.lb11.TabIndex = 20;
+            this.lb11.Text = "-";
+            // 
+            // lb10
+            // 
+            this.lb10.AutoSize = true;
+            this.lb10.Location = new System.Drawing.Point(129, 228);
+            this.lb10.Name = "lb10";
+            this.lb10.Size = new System.Drawing.Size(11, 12);
+            this.lb10.TabIndex = 21;
+            this.lb10.Text = "-";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(642, 383);
+            this.Controls.Add(this.lb10);
+            this.Controls.Add(this.lb11);
             this.Controls.Add(this.lb9);
             this.Controls.Add(this.lb8);
             this.Controls.Add(this.lb7);
@@ -286,6 +309,8 @@ namespace winform1
         private System.Windows.Forms.Label lb7;
         private System.Windows.Forms.Label lb8;
         private System.Windows.Forms.Label lb9;
+        private System.Windows.Forms.Label lb11;
+        private System.Windows.Forms.Label lb10;
     }
 }
 
