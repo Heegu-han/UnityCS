@@ -24,8 +24,9 @@ namespace winform2
             int iNumA = int.Parse(tboxNum1.Text);
             int iNumB = int.Parse(tboxNum2.Text);
 
-            int iResult = iNumA + iNumB;
-            tboxResult.Text = iResult.ToString();
+            //int iResult = iNumA + iNumB;
+            //tboxResult.Text = iResult.ToString();
+            tboxResult.Text = fPlus(iNumA, iNumB).ToString();
         }
 
         private void btnMulti_Click(object sender, EventArgs e)
@@ -53,6 +54,14 @@ namespace winform2
 
             int iResult = iNumA - iNumB;
             tboxResult.Text = iResult.ToString();
+        }
+        private int fPlus(int iA, int iB)
+        {
+            int iResut = 0;
+            iResut = iA + iB;
+
+
+            return iResut;
         }
     }
 }
