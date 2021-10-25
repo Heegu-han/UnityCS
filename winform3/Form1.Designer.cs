@@ -52,6 +52,7 @@ namespace winform3
             this.tboxResult.TabIndex = 0;
             this.tboxResult.Text = "0";
             this.tboxResult.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.tboxResult.TextChanged += new System.EventHandler(this.tboxResult_TextChanged);
             // 
             // tboxResultAfter
             // 
@@ -74,6 +75,7 @@ namespace winform3
             // 
             // tboxAndOr
             // 
+            this.tboxAndOr.Enabled = false;
             this.tboxAndOr.Location = new System.Drawing.Point(225, 136);
             this.tboxAndOr.Name = "tboxAndOr";
             this.tboxAndOr.Size = new System.Drawing.Size(100, 21);
@@ -97,6 +99,7 @@ namespace winform3
             this.button1.TabIndex = 5;
             this.button1.Text = "<<";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -106,6 +109,7 @@ namespace winform3
             this.button2.TabIndex = 6;
             this.button2.Text = ">>";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -115,6 +119,7 @@ namespace winform3
             this.button3.TabIndex = 7;
             this.button3.Text = "+=";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -134,6 +139,7 @@ namespace winform3
             this.button5.TabIndex = 9;
             this.button5.Text = "++a";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -143,6 +149,7 @@ namespace winform3
             this.button6.TabIndex = 10;
             this.button6.Text = "a++";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -152,6 +159,7 @@ namespace winform3
             this.button7.TabIndex = 11;
             this.button7.Text = "&&";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -161,6 +169,7 @@ namespace winform3
             this.button8.TabIndex = 12;
             this.button8.Text = "||";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // Form1
             // 
