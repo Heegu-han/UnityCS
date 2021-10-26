@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform2", "winform2\winfor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winform3", "winform3\winform3.csproj", "{00926CD5-91A8-455B-ACF6-199D9448A5B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VersionCheck", "VersionCheck\VersionCheck.csproj", "{658B7098-2F70-47A7-9DC5-758C570DCC00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{00926CD5-91A8-455B-ACF6-199D9448A5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00926CD5-91A8-455B-ACF6-199D9448A5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00926CD5-91A8-455B-ACF6-199D9448A5B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{658B7098-2F70-47A7-9DC5-758C570DCC00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658B7098-2F70-47A7-9DC5-758C570DCC00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658B7098-2F70-47A7-9DC5-758C570DCC00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658B7098-2F70-47A7-9DC5-758C570DCC00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
