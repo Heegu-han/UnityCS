@@ -24,7 +24,7 @@ namespace VersionChecker
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var ReturnValue = AutoSetup.CheckPC.AppVersion();
+            var ReturnValue = Class1.AppVersion();
 
             textBox3.Text = "입력하신 프로그램이 없습니다.";
             for (int i = 0; i < ReturnValue.Count; i++)
@@ -72,7 +72,7 @@ namespace VersionChecker
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var PV = AutoSetup.CheckPC.ProVersion(textBox4.Text);
+            var PV = Class1.ProVersion(textBox4.Text);
             if (PV != null)
             {
                 textBox5.Text = PV;
